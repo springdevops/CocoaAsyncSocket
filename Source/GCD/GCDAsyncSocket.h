@@ -788,7 +788,7 @@ typedef NS_ENUM(NSInteger, GCDAsyncSocketError) {
  * 
  * You can also perform additional validation in socketDidSecure.
 **/
-- (void)startTLS:(nullable NSDictionary <NSString*,NSObject*>*)tlsSettings;
+- (void)startTLS:(nullable NSDictionary *)tlsSettings;
 
 #pragma mark Advanced
 
